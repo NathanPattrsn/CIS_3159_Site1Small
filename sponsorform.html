@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <title>Sponsor a Bird</title>  
+</head>
+
+<body>
+<header>
+    <div class="header-left">
+    <a href="index.html"><img src="images/logo.PNG"  class="logo" alt="Rising Falcon Logo"></a>
+</div>
+    <div class="header-right">
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about_us.html">About Us</a>
+            <div class="dropdown">
+              <button class="dropbtn">More
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="our_team.html">Our Team</a>
+                <a href="contact.html">Contact Us</a>
+                <a href="support.html">Support</a>
+              </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<h1>Bird Sponsoring</h1>
+<h3 class="contacth3">Give us a call on 01234 567 890 or 09876 543 210</h3>
+
+<div class="container">
+    <form action="support.html" method="get" id="contactform">
+  
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+  
+      <label for="bird">Which Bird?</label>
+      <select id="bird" name="bird">
+        <option value="baldrick">Baldrick</option>
+        <option value="belichick">Belichick</option>
+        <option value="dufresne">Dufresne</option>
+        <option value="freedom">Freedom</option>
+        <option value="owl">Owl</option>
+        <option value="patriot">Patriot</option>
+        <option value="paul">Paul</option>
+        <option value="paws">Paws</option>
+        <option value="peggy">Peggy</option>
+        <option value="poppy">Poppy</option>
+      </select>
+  
+      <input type="submit" form="contactform" value="Submit" onclick="mySponsorFunction()">
+  
+    </form>
+  </div>
+
+<footer>
+    <p>Tel - 01234 567 890 or 09876 543 210 | Address - 1 Edge Hill, St Helens Road, Ormskirk, L39 4QP | Email - <a href="#email">peter.idgeon@RisingFalcon.biz</a></p>
+</footer>
+</body>
+</html>

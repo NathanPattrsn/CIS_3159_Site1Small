@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <title>Contact Us</title>  
+</head>
+
+<body>
+<header>
+    <div class="header-left">
+    <a href="index.html"><img src="images/logo.PNG"  class="logo" alt="Rising Falcon Logo"></a>
+</div>
+    <div class="header-right">
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about_us.html">About Us</a>
+            <div class="dropdown">
+              <button class="dropbtn">More
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="our_team.html">Our Team</a>
+                <a href="contact.html">Contact Us</a>
+                <a href="support.html">Support</a>
+              </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<h1>Contact Us</h1>
+<h3 class="contacth3">Give us a call on 01234 567 890 or 09876 543 210</h3>
+
+<div class="container">
+    <form action="contact.html" method="get" id="contactform">
+  
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+  
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+        <option value="uk">UK</option>
+      </select>
+  
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+  
+      <input type="submit" form="contactform" value="Submit" onclick="myFunction()">
+  
+    </form>
+  </div>
+
+<footer>
+    <p>Tel - 01234 567 890 or 09876 543 210 | Address - 1 Edge Hill, St Helens Road, Ormskirk, L39 4QP | Email - <a href="#email">peter.idgeon@RisingFalcon.biz</a></p>
+</footer>
+</body>
+</html>
