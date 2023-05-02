@@ -19,6 +19,7 @@ header {
     height: 150px;
     color: #fff;
     padding: 10px;
+    border-bottom: 2px solid rgb(0, 133, 221);
 }
 
 .header {
@@ -151,12 +152,13 @@ header {
     width: 370px;
     height: 270px;
     float: left;
-    padding-right: 1%;
     border-radius: 20px;
+    border: 2px solid rgb(0, 133, 221);
 }
 
 .s2 p2{
-    font-weight: bold;
+  font-weight: bold;
+  padding-left: 1%;
 }
 
 .s3{
@@ -171,8 +173,8 @@ header {
     width: 370px;
     height: 270px;
     float: right;
-    padding-right: 1%;
     border-radius: 20px;
+    border: 2px solid rgb(0, 133, 221);
 }
 
 .abouts1{
@@ -188,8 +190,8 @@ header {
     width: 300px;
     height: 270px;
     float: left;
-    padding-right: 1%;
     border-radius: 20px;
+    border: 2px solid rgb(0, 133, 221);
 }
 
 .abouts2{
@@ -200,6 +202,7 @@ header {
     border-radius: 20px;
     background-color: #f2f2f2;
     text-align: center;
+    border: 2px solid rgb(0, 133, 221);
 }
 
 h1{
@@ -217,8 +220,8 @@ h1{
     width: 370px;
     height: 270px;
     float: left;
-    padding-right: 1%;
     border-radius: 20px;
+    border: 2px solid rgb(0, 133, 221);
 }
 
 .peter_team h3{
@@ -236,8 +239,8 @@ h1{
     width: 370px;
     height: 270px;
     float: left;
-    padding-right: 1%;
     border-radius: 20px;
+    border: 2px solid rgb(0, 133, 221);
 }
 
 .paula_team h3{
@@ -254,8 +257,8 @@ h1{
     width: 370px;
     height: 270px;
     float: left;
-    padding-right: 1%;
     border-radius: 20px;
+    border: 2px solid rgb(0, 133, 221);
 }
 
 .olivia_team h3{
@@ -273,8 +276,8 @@ h1{
     width: 370px;
     height: 270px;
     float: left;
-    padding-right: 1%;
     border-radius: 20px;
+    border: 2px solid rgb(0, 133, 221);
 }
 
 .kevin_team h3{
@@ -293,13 +296,14 @@ h1{
     width: 370px;
     height: 270px;
     float: left;
-    padding-right: 1%;
     border-radius: 20px;
+    border: 2px solid rgb(0, 133, 221);
 }
 
 .harry_team h3{
     text-align: left;
 }
+
 
 article{
     margin: auto;
@@ -340,13 +344,14 @@ input[type=text], select, textarea {
   
   /* Add a background color and some padding around the form */
   .container {
-    border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+    border-top: 2px solid rgb(0, 133, 221);
+    border-bottom: 2px solid rgb(0, 133, 221);
   }
 
   .supports1{
-    
+    border: 2px solid rgb(0, 133, 221);
     width: 70%;
     margin: auto;
     padding: 10px;
@@ -371,12 +376,7 @@ input[type=text], select, textarea {
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
-  }
-  
-  .button1 {
-    background-color: rgb(33, 139, 0); 
-    color: white; 
-    border-radius: 10px;
+    border: 2px solid rgb(0, 133, 221);
   }
 
   .grid-container {
@@ -397,12 +397,7 @@ input[type=text], select, textarea {
     width: 210px;
     height: 190px;
     border-radius: 20px;
-}
-
-.bird{
-    width: 210px;
-    height: 190px;
-    border-radius: 20px;
+    border: 2px solid rgb(0, 133, 221);
 }
 
 .supportp1{
@@ -419,4 +414,5 @@ footer {
     padding: 10px;
     text-align: center;
     clear: both;
+    border-top: 2px solid rgb(0, 133, 221);
 }
